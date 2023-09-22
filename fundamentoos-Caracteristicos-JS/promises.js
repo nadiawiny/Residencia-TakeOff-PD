@@ -16,6 +16,9 @@ test().then(function(resultado){
     console.log('Idependente do resultado, eu sempre sou execultado')
 })
 
-console.log('fim')
+function soma(a, b){
+    return a+b
+}
 
-// palabras reservadas Async e Await 
+const resultadoSoma = soma(1, 2)
+console.log(resultadoSoma)
